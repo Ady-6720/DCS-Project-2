@@ -1,7 +1,7 @@
 # Multithreaded Client-Server File Transfer Protocol System
 
 ## Overview
-This project implements a client-server file transfer system using sockets in Java. The system allows users to interact with the server to perform various file operations such as uploading files (`put`), downloading files (`get`), creating directories (`mkdir`), changing directories (`cd`), deleting files (`delete`), listing directory contents (`ls`), and checking the current directory (`pwd`).
+This project implements a client-server file transfer system using sockets in Java. The system allows users to interact with the server to perform various file operations such as uploading files (`put`), downloading files (`get`), creating directories (`mkdir`), changing directories (`cd`), deleting files (`delete`), listing directory contents (`ls`), and checking the current directory (`pwd`), deleteing a directory ('rmdir').
 
 ## Multithreading
 The project works on multithreading 
