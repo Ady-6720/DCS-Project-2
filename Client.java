@@ -36,7 +36,7 @@ class GetThread extends Thread {
           System.out.println("Command ID:" + fileData[3]);
 
           // Wait for 5 seconds as per the requirements
-          Thread.sleep(50000);
+          Thread.sleep(5000);
 
           // Get the file size from the server
           long fileSize = serverInput.readLong();
